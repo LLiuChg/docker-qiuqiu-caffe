@@ -24,3 +24,17 @@ $ python infer-random-wh.py
 $ docker build -t caffe-dog:cpu cpu
 ```
 
+
+
+**上传docker**
+
+```
+$ docker login
+$ docker images
+$ docker tag caffe-dog:cpu chliu4890/dog-qiuqiu-caffe
+$ docker images
+$ docker push chliu4890/dog-qiuqiu-caffe
+
+docker id : chliu4890
+```
+
